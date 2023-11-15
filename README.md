@@ -11,9 +11,6 @@ The following requirements are required for this script's execution:
 ### CONTACT
 Please perform the following before contacting others for assistance:
 1. For initial troubleshooting please see the `Troubleshooting` section below.
-2. If the issue still cannot be resolved, please reach out to your Crowe contact to create an internal issue.
-    * Crowe - Please search for an existing open/closed issue. If a related issue does not exist, create a detailed issue within the Workstation-Audit GitLab repository containing logs from the client's `/Reports/logs` output.
-    * Crowe - For additional assistance, please contact Evan Kiel.
 
 ### USAGE
 The following sections will explain Workstation-Audit usage:
@@ -55,7 +52,6 @@ Please perform the following to remove Workstation-Audit:
 2. Delete the `Workstation-Audit` folder
 
 ##### Troubleshooting
-Please perform the following troubleshooting before reaching out to Crowe:
 1. Validate that the correct path was used for the `-WorkstationList` and that the workstation list is one hostname per line with no commas or extra characters
 2. Confirm PowerShell Version 3 or higher is used with `$PSVersionTable.PSVersion`
 3. If issues continue, try using the `-NoDATADIR` flag; you will recieve less information, but the script will limit the utilized procedures.
